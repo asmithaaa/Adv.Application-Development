@@ -1,0 +1,45 @@
+.contact-form {
+    position: relative;
+    width: 300px;
+    margin: 50px auto;
+    z-index: 1; /* Ensure the form is above the video */
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff; /* Text color for better visibility */
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .video-container {
+    position: absolute;
+    top:100px;
+    left: 160px;
+    width: 160%;
+    height: 100%;
+    z-index: 0; /* Ensure the video is behind the form */
+  }
+  
+  .video-container video {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
